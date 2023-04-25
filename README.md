@@ -16,30 +16,30 @@ The Kubernetes architecture consists of two main components: Master Components a
 # 📍 Master Components:
 Master components are the control plane components of Kubernetes that manage the Kubernetes cluster. The master components include:
 
-## 🔹 Kubernetes API Server:
+### 🔹 Kubernetes API Server:
 The Kubernetes API Server exposes the Kubernetes API, which is used by clients to interact with the Kubernetes cluster. It is the primary management point for the Kubernetes cluster and is responsible for validating and processing API requests.
 
-## 🔹 etcd:
+### 🔹 etcd:
 etcd is a distributed key-value store that stores the configuration data of the Kubernetes cluster. It is used to store the state of the cluster, including the state of all objects (pods, services, deployments, etc.).
 
-## 🔹 Kube-Controller Manager:
+### 🔹 Kube-Controller Manager:
 The Kube-Controller Manager is responsible for running controllers that are responsible for maintaining the desired state of the Kubernetes cluster. The controllers include the node controller, the replication controller, and the endpoint controller.
 
-## 🔹 Kube-Scheduler:
+### 🔹 Kube-Scheduler:
 The Kube-Scheduler is responsible for scheduling the pods on the nodes in the Kubernetes cluster. It uses information about the nodes' available resources and the pod's resource requirements to determine the best node to schedule the pod on.
 
 # 📍 Node Components:
 Node components are the worker components of Kubernetes that run on each node in the Kubernetes cluster. The node components include:
 
-Kubelet:
+### Kubelet:
 
 The Kubelet is the primary node agent that communicates with the Kubernetes API server and ensures that the containers are running on the node as expected. It is responsible for starting, stopping, and monitoring the containers on the node.
 
-Container Runtime:
+### Container Runtime:
 
 The Container Runtime is the software that runs the containers on the node. Kubernetes supports several container runtimes, including Docker, CRI-O, and containerd.
 
-kube-proxy:
+### kube-proxy:
 
 The kube-proxy is responsible for providing network connectivity to the pods running on the node. It does this by creating network rules that allow traffic to be forwarded to the pods.
 
@@ -47,35 +47,35 @@ The kube-proxy is responsible for providing network connectivity to the pods run
 Kubernetes components can be divided into two categories: Control Plane Components and Worker Nodes Components.
 
 Control Plane Components:
-## 🔹 kube-apiserver:
+### 🔹 kube-apiserver:
 The kube-apiserver is the main management point for the Kubernetes cluster. It exposes the Kubernetes API, which is used by clients to interact with the Kubernetes cluster.
 
-## 🔹 kube-scheduler:
+### 🔹 kube-scheduler:
 The kube-scheduler is responsible for scheduling the pods on the nodes in the Kubernetes cluster.
 
-## 🔹 kube-controller-manager:
+### 🔹 kube-controller-manager:
 The kube-controller-manager runs controllers that are responsible for maintaining the desired state of the Kubernetes cluster.
 
-## 🔹 etcd:
+### 🔹 etcd:
 etcd is a distributed key-value store that stores the configuration data of the Kubernetes cluster.
 
-## 🔹 cloud-controller-manager:
+### 🔹 cloud-controller-manager:
 The cloud-controller-manager is responsible for managing the cloud provider-specific resources in the Kubernetes cluster. It provides a way to integrate with the cloud provider's APIs to manage the cloud resources.
 
 Worker Node Components:
-🔹 Nodes:
+### 🔹 Nodes:
 Nodes are the worker machines that run the containers. They are managed by the Kubernetes master components.
 
-🔹 Pods:
+### 🔹 Pods:
 ![image](https://user-images.githubusercontent.com/55047333/234193298-176263a1-73e1-4436-b18a-88b1f324fe11.png)
 
 
 Pods are the smallest deployable units in the Kubernetes cluster. They contain one or more containers and are scheduled on nodes.
 
-🔹 Container Runtime Engine:
+### 🔹 Container Runtime Engine:
 The Container Runtime Engine is responsible for running the containers on the node. Kubernetes supports several container runtimes, including Docker, CRI-O, and containerd.
 
-🔹 kubelet:
+### 🔹 kubelet:
 Kubelet is one of the main components of Kubernetes responsible for managing individual nodes and their containers. It is essentially an agent that runs on each node in the Kubernetes cluster and communicates with the API server to ensure that the containers running on the node are healthy and running as expected.
 
 The kubelet performs several functions, including:
@@ -90,10 +90,10 @@ Mounting and unmounting volumes as necessary.
 
 Executing container health checks.
 
-🔹 kube-proxy
+### 🔹 kube-proxy
 The kube-proxy component is responsible for managing the network proxy between the Kubernetes services and the pods that are running on the worker nodes. The kube-proxy uses various networking modes to ensure that the communication between the pods and services is efficient and reliable.
 
-🔹 Container Networking
+### 🔹 Container Networking
 The container networking component is responsible for ensuring that all the containers running on the worker nodes can communicate with each other and with the external networks. Kubernetes provides several plugins for container networking, including Flannel, Calico, and Weave.
 
 # 📍 Installing kubectl and minikube on Ubuntu:
