@@ -1,6 +1,6 @@
 # kubernetes-kubeweek-7-days-challenge
 
-![image](https://user-images.githubusercontent.com/55047333/234193177-e7fb09a9-51fa-4f42-b0b6-c3a7c4dd9f7a.png)
+![image](https://user-images.githubusercontent.com/55047333/234264344-f8efde5b-cd50-487a-89ef-b19e5477a6ac.png)
 
 # 📍 Introduction:
 Welcome to TWS Kubernetes Challenge, where we believe in constant learning and growth. Whether you're a beginner or an experienced professional, our 7-days #KubeWeek challenge is designed to help you sharpen your skills and explore the limitless possibilities of Kubernetes. Day -1 of this 7-day challenge #techwithshubham #kubeweek
