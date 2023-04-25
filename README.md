@@ -100,15 +100,21 @@ The container networking component is responsible for ensuring that all the cont
 Install kubectl:
 
  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+ 
  sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+ 
  kubectl version
+ 
 This downloads the latest stable release of kubectl for Linux amd64 architecture, installs it, and verifies the installation.
 
 Install minikube:
 
  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+ 
  sudo install minikube-linux-amd64 /usr/local/bin/minikube
+ 
  minikube start --driver=docker
+ 
 This downloads the latest release of minikube for Linux amd64 architecture, installs it, and starts a single-node Kubernetes cluster using the Docker driver.
 
 Create a pod configuration file:
@@ -141,12 +147,15 @@ This creates the 'nginx' pod using the configuration in the pod.yml file, lists 
 Verify the pod is running:
 
  minikube ssh
+ 
  curl http://<cluster-ip>:80
+ 
 This logs into the minikube VM, where the Kubernetes cluster is running, and uses curl to access the nginx web server running in the 'nginx' pod via the cluster IP address.
 
 Delete the pod:
 
-kubectl delete pod nginx
+ kubectl delete pod nginx
+
 This deletes the 'nginx' pod from the Kubernetes cluster.
 
 # 📍 Conclusion:
