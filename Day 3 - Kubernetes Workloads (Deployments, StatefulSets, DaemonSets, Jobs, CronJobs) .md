@@ -126,7 +126,7 @@ kubectl apply -f statefulset.yaml
 
 ### ⚜ Check the output to ensure that the StatefulSet has been successfully deployed.
 
-![image](https://cdn.hashnode.com/res/hashnode/image/upload/v1682513153553/4b2a2684-5fef-44e8-b7de-2250ff0dfa3e.png align="center")
+![image](https://user-images.githubusercontent.com/55047333/234872899-56ac72b6-fd27-4027-ac7a-d8d1f7265fd3.png)
 
 # **📍** DaemonSet:
 
@@ -179,7 +179,7 @@ spec:
 kubectl apply nginx-daemonset.yml
 ```
 
-![image](https://cdn.hashnode.com/res/hashnode/image/upload/v1682513502795/d2862f95-bad4-4d86-a665-e3ab3a5da254.png align="center")
+![image](https://user-images.githubusercontent.com/55047333/234872983-4e6d9e20-dacd-43e2-bfb9-b5e4eefe2e11.png)
 
 # **📍 Kubernetes Jobs:**
 
@@ -223,7 +223,7 @@ This command will create the Job based on the Job definition file "example-job.y
 kubectl get jobs
 ```
 
-![image](https://cdn.hashnode.com/res/hashnode/image/upload/v1682531284122/ef6ea2b8-bce1-407c-a2db-234c655ed984.png align="center")
+![image](https://user-images.githubusercontent.com/55047333/234873093-2b5ded12-cde7-49f2-9b48-513b811edcd7.png)
 
 This command will show the current status of all Jobs in the Kubernetes cluster. To view more detailed information about a specific Job, we can use the "kubectl describe job" command:
 
@@ -231,7 +231,7 @@ This command will show the current status of all Jobs in the Kubernetes cluster.
 kubectl describe job example-job
 ```
 
-![image](https://cdn.hashnode.com/res/hashnode/image/upload/v1682531337354/cdadfb6e-4a15-42af-acfa-17e29ada6ec7.png align="center")
+![image](https://user-images.githubusercontent.com/55047333/234873174-883b961c-a2e9-4720-8232-00e8bb085e1d.png)
 
 This command will show detailed information about the "example-job" Job, including the number of Pods created, the status of each Pod, and any errors that occurred during the Job's execution.
 
@@ -278,7 +278,7 @@ To deploy this CronJob, you can use the kubectl apply command:
 kubectl apply -f cronjob.yaml
 ```
 
-![image](https://cdn.hashnode.com/res/hashnode/image/upload/v1682532164417/f4fde2d1-e4a1-4b35-801e-1afcc1377f78.png align="center")
+![image](https://user-images.githubusercontent.com/55047333/234873263-50ef535a-099f-46a3-9ec1-f46af8c81c51.png)
 
 Once the CronJob is deployed, Kubernetes will automatically create a new Job object at the scheduled time. The Job will run the specified command in a new container, and then terminate once the task is complete.
 
