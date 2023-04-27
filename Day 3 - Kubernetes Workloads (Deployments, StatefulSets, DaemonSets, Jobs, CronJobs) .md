@@ -24,7 +24,7 @@ To deploy a Deployment, can follow below steps to configure the Kubernetes Serve
 3. Install Minikube using the instructions provided at [**https://minikube.sigs.k8s.io/docs/start/**](https://minikube.sigs.k8s.io/docs/start/)
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1682512608619/67b5a323-3099-4194-80ae-3479ad23fd4a.png align="center")
+![image](https://user-images.githubusercontent.com/55047333/234872183-203c46e6-ed6f-4a22-a595-147b25777eaa.png)
 
 # **📍** Deployment:
 
@@ -65,11 +65,11 @@ spec:
 kubectl apply -f nginx-deployment.yaml
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1682513227117/8fc3c98b-2b5e-4c78-b484-5a69754758b0.png align="center")
+![image](https://user-images.githubusercontent.com/55047333/234872302-47ba0fad-8048-4d86-a0ec-c24a14013b15.png)
 
 ### ⚜ Check the output to ensure that the Deployment has been successfully deployed.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1682513003918/99d22df8-9f93-4f99-af96-d9163dcaa044.png align="center")
+![image](https://user-images.githubusercontent.com/55047333/234872373-bb7aff43-8bcc-46d8-b9cf-812cc76d7c5d.png)
 
 # **📍** StatefulSets:
 
@@ -122,11 +122,11 @@ spec:
 kubectl apply -f statefulset.yaml
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1682513188489/6b527280-6b1a-482f-a93d-0cc3f385a8d9.png align="center")
+![image](https://user-images.githubusercontent.com/55047333/234872449-20cc1d9a-1c20-406f-9f5c-9d378380f926.png)
 
 ### ⚜ Check the output to ensure that the StatefulSet has been successfully deployed.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1682513153553/4b2a2684-5fef-44e8-b7de-2250ff0dfa3e.png align="center")
+![image](https://cdn.hashnode.com/res/hashnode/image/upload/v1682513153553/4b2a2684-5fef-44e8-b7de-2250ff0dfa3e.png align="center")
 
 # **📍** DaemonSet:
 
@@ -179,7 +179,7 @@ spec:
 kubectl apply nginx-daemonset.yml
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1682513502795/d2862f95-bad4-4d86-a665-e3ab3a5da254.png align="center")
+![image](https://cdn.hashnode.com/res/hashnode/image/upload/v1682513502795/d2862f95-bad4-4d86-a665-e3ab3a5da254.png align="center")
 
 # **📍 Kubernetes Jobs:**
 
@@ -223,7 +223,7 @@ This command will create the Job based on the Job definition file "example-job.y
 kubectl get jobs
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1682531284122/ef6ea2b8-bce1-407c-a2db-234c655ed984.png align="center")
+![image](https://cdn.hashnode.com/res/hashnode/image/upload/v1682531284122/ef6ea2b8-bce1-407c-a2db-234c655ed984.png align="center")
 
 This command will show the current status of all Jobs in the Kubernetes cluster. To view more detailed information about a specific Job, we can use the "kubectl describe job" command:
 
@@ -231,7 +231,7 @@ This command will show the current status of all Jobs in the Kubernetes cluster.
 kubectl describe job example-job
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1682531337354/cdadfb6e-4a15-42af-acfa-17e29ada6ec7.png align="center")
+![image](https://cdn.hashnode.com/res/hashnode/image/upload/v1682531337354/cdadfb6e-4a15-42af-acfa-17e29ada6ec7.png align="center")
 
 This command will show detailed information about the "example-job" Job, including the number of Pods created, the status of each Pod, and any errors that occurred during the Job's execution.
 
@@ -278,7 +278,7 @@ To deploy this CronJob, you can use the kubectl apply command:
 kubectl apply -f cronjob.yaml
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1682532164417/f4fde2d1-e4a1-4b35-801e-1afcc1377f78.png align="center")
+![image](https://cdn.hashnode.com/res/hashnode/image/upload/v1682532164417/f4fde2d1-e4a1-4b35-801e-1afcc1377f78.png align="center")
 
 Once the CronJob is deployed, Kubernetes will automatically create a new Job object at the scheduled time. The Job will run the specified command in a new container, and then terminate once the task is complete.
 
