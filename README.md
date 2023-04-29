@@ -15,6 +15,14 @@
 
 💡 Throughout the week, you'll expand your Kubernetes knowledge and gain valuable insights. Shubham's guidance and expertise will empower you to master Kubernetes fundamentals and confidently tackle real-world scenarios.
 
+# Surprises Await!
+### 🎁 Participating in the TWS Kubernetes Challenge brings exciting surprises! Here's what you can look forward to:
+
+### 🏆 The top performers will receive exclusive merchandise from TrainWithShubham.
+### 🎉 Three top performers will enjoy advance pre-booking for the upcoming "DevOps Zero to Hero Cohort" absolutely free of cost.
+### 💼 Live 1:1 mentoring sessions specifically for DevOps engineering jobs.
+### 😎 Plus, there are some cool surprises in store just for you!
+
 # GitHub Repository
 📚 To document and share my journey, I create a dedicated GitHub repository. This repository will serve as a centralized hub for the code snippets, configuration files, and insightful write-ups related to the TWS Kubernetes Challenge.
 
