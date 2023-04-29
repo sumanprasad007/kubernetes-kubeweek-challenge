@@ -23,6 +23,11 @@
 ### 💼 Live 1:1 mentoring sessions specifically for DevOps engineering jobs.
 ### 😎 Plus, there are some cool surprises in store just for you!
 
+![image](https://user-images.githubusercontent.com/55047333/235319299-4079c6fc-0a33-408c-9ed2-bbf0eaddab95.png)
+
+# Success Crateria:
+![image](https://user-images.githubusercontent.com/55047333/235319325-74ea6da7-40b1-4675-87e7-ae54085a046f.png)
+
 # GitHub Repository
 📚 To document and share my journey, I create a dedicated GitHub repository. This repository will serve as a centralized hub for the code snippets, configuration files, and insightful write-ups related to the TWS Kubernetes Challenge.
 
